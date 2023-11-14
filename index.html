@@ -22,202 +22,214 @@
 
   <body>
     <header class="header">
-      <nav>
-        <a class="logo-header" href="./index.html"
-          >Web<span class="logo-header-part">Studio</span></a
-        >
-        <ul>
-          <li><a class="nav-link" href="./index.html">Studio</a></li>
-          <li><a class="nav-link" href="">Portfolio</a></li>
-          <li><a class="nav-link" href="">Contacts</a></li>
-        </ul>
-      </nav>
+      <div class="container container-header">
+        <nav class="navigation">
+          <a class="logo-header" href="./index.html"
+            >Web<span class="logo-header-part">Studio</span></a
+          >
+          <ul class="header-items">
+            <li><a class="nav-link" href="./index.html">Studio</a></li>
+            <li><a class="nav-link" href="">Portfolio</a></li>
+            <li><a class="nav-link" href="">Contacts</a></li>
+          </ul>
+        </nav>
 
-      <address class="address" id="mail_tel">
-        <ul>
-          <li>
-            <a class="address-link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="address-link" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+        <address class="address" id="mail_tel">
+          <ul class="header-items">
+            <li>
+              <a class="address-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="address-link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
 
     <main>
       <!-- Hero Section -->
 
       <section class="section-one">
-        <h1 class="slogan">Effective Solutions for Your Business</h1>
-        <button type="button" class="button-style">Order Service</button>
+        <div class="container container-section-one">
+          <h1 class="slogan">Effective Solutions for Your Business</h1>
+          <button type="button" class="button-style">Order Service</button>
+        </div>
       </section>
 
       <!-- Advantages Section -->
 
-      <section>
-        <h2 hidden class="section-title">Advantages</h2>
-        <ul>
-          <li>
-            <h3 class="features-subtitle">Strategy</h3>
-            <p class="features-descr">
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
-          <li>
-            <h3 class="features-subtitle">Punctuality</h3>
-            <p class="features-descr">
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-          <li>
-            <h3 class="features-subtitle">Diligence</h3>
-            <p class="features-descr">
-              Research and confirm brands that present the strongest digital
-              growth opportunities and minimize risk.
-            </p>
-          </li>
-          <li>
-            <h3 class="features-subtitle">Technologies</h3>
-            <p class="features-descr">
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-          </li>
-        </ul>
+      <section class="section-two">
+        <div class="container">
+          <h2 hidden class="visually-hidden slogan-descr">Advantages</h2>
+          <ul class="section-two-items">
+            <li class="section-two-items-descr">
+              <h3 class="features-subtitle">Strategy</h3>
+              <p class="features-descr">
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
+            </li>
+            <li class="section-two-items-descr">
+              <h3 class="features-subtitle">Punctuality</h3>
+              <p class="features-descr">
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
+            <li class="section-two-items-descr">
+              <h3 class="features-subtitle">Diligence</h3>
+              <p class="features-descr">
+                Research and confirm brands that present the strongest digital
+                growth opportunities and minimize risk.
+              </p>
+            </li>
+            <li class="section-two-items-descr">
+              <h3 class="features-subtitle">Technologies</h3>
+              <p class="features-descr">
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!-- Team Section -->
 
       <section class="section-three">
-        <h2 class="section-title">Our Team</h2>
-        <ul>
-          <li class="card-info">
-            <img
-              src="./images/img-1.jpg"
-              alt="Усміхнений чоловік"
-              width="264"
-            />
-            <h3 class="features-subtitle">Mark Guerrero</h3>
-            <p class="features-descr">Product Designer</p>
-          </li>
+        <div class="container">
+          <h2 class="slogan-descr">Our Team</h2>
+          <ul class="section-three-items">
+            <li class="card-info">
+              <img
+                src="./images/img-1.jpg"
+                alt="Усміхнений чоловік"
+                width="264"
+              />
+              <h3 class="features-subtitle">Mark Guerrero</h3>
+              <p class="features-descr">Product Designer</p>
+            </li>
 
-          <li class="card-info">
-            <img
-              src="./images/img-2.jpg"
-              alt="Усміхнений чоловік"
-              width="264"
-            />
-            <h3 class="features-subtitle">Tom Ford</h3>
-            <p class="features-descr">Frontend Developer</p>
-          </li>
+            <li class="card-info">
+              <img
+                src="./images/img-2.jpg"
+                alt="Усміхнений чоловік"
+                width="264"
+              />
+              <h3 class="features-subtitle">Tom Ford</h3>
+              <p class="features-descr">Frontend Developer</p>
+            </li>
 
-          <li class="card-info">
-            <img src="./images/img-3.jpg" alt="Усміхнена жінка" width="264" />
-            <h3 class="features-subtitle">Camila Garcia</h3>
-            <p class="features-descr">Marketing</p>
-          </li>
+            <li class="card-info">
+              <img src="./images/img-3.jpg" alt="Усміхнена жінка" width="264" />
+              <h3 class="features-subtitle">Camila Garcia</h3>
+              <p class="features-descr">Marketing</p>
+            </li>
 
-          <li class="card-info">
-            <img
-              src="./images/img-4.jpg"
-              alt="Усміхнений чоловік"
-              width="264"
-            />
-            <h3 class="features-subtitle">Daniel Wilson</h3>
-            <p class="features-descr">UI Designer</p>
-          </li>
-        </ul>
+            <li class="card-info">
+              <img
+                src="./images/img-4.jpg"
+                alt="Усміхнений чоловік"
+                width="264"
+              />
+              <h3 class="features-subtitle">Daniel Wilson</h3>
+              <p class="features-descr">UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!-- Our Portfolio -->
 
-      <section>
-        <h2 class="section-title">Our Portfolio</h2>
-        <ul>
-          <li>
-            <img
-              src="./images/img-5.jpg"
-              alt="Розділи банківського додатку"
-              width="360"
-              height="300"
-            />
-            <h3 class="features-subtitle">Banking App</h3>
-            <p class="features-descr">App</p>
-          </li>
+      <section class="section-four">
+        <div class="container">
+          <h2 class="slogan-descr">Our Portfolio</h2>
+          <ul class="section-four-items">
+            <li class="card-info-section-four">
+              <img
+                src="./images/img-5.jpg"
+                alt="Розділи банківського додатку"
+                width="360"
+                height="300"
+              />
+              <h3 class="features-subtitle">Banking App</h3>
+              <p class="features-descr">App</p>
+            </li>
 
-          <li>
-            <img
-              src="./images/img-6.jpg"
-              alt="Смартфон та термінал"
-              width="360"
-              height="300"
-            />
-            <h3 class="features-subtitle">Cashless Payment</h3>
-            <p class="features-descr">Marketing</p>
-          </li>
+            <li class="card-info-section-four">
+              <img
+                src="./images/img-6.jpg"
+                alt="Смартфон та термінал"
+                width="360"
+                height="300"
+              />
+              <h3 class="features-subtitle">Cashless Payment</h3>
+              <p class="features-descr">Marketing</p>
+            </li>
 
-          <li>
-            <img
-              src="./images/img-7.jpg"
-              alt="Екран ноутбука та смартфона"
-              width="360"
-              height="300"
-            />
-            <h3 class="features-subtitle">Meditation App</h3>
-            <p class="features-descr">App</p>
-          </li>
+            <li class="card-info-section-four">
+              <img
+                src="./images/img-7.jpg"
+                alt="Екран ноутбука та смартфона"
+                width="360"
+                height="300"
+              />
+              <h3 class="features-subtitle">Meditation App</h3>
+              <p class="features-descr">App</p>
+            </li>
 
-          <li>
-            <img
-              src="./images/img-8.jpg"
-              alt="Кермо автомобіля з навігацією"
-              width="360"
-              height="300"
-            />
-            <h3 class="features-subtitle">Taxi Service</h3>
-            <p class="features-descr">Marketing</p>
-          </li>
+            <li class="card-info-section-four">
+              <img
+                src="./images/img-8.jpg"
+                alt="Кермо автомобіля з навігацією"
+                width="360"
+                height="300"
+              />
+              <h3 class="features-subtitle">Taxi Service</h3>
+              <p class="features-descr">Marketing</p>
+            </li>
 
-          <li>
-            <img
-              src="./images/img-9.jpg"
-              alt="Екран смартфона"
-              width="360"
-              height="300"
-            />
-            <h3 class="features-subtitle">Screen Illustrations</h3>
-            <p class="features-descr">Design</p>
-          </li>
+            <li class="card-info-section-four">
+              <img
+                src="./images/img-9.jpg"
+                alt="Екран смартфона"
+                width="360"
+                height="300"
+              />
+              <h3 class="features-subtitle">Screen Illustrations</h3>
+              <p class="features-descr">Design</p>
+            </li>
 
-          <li>
-            <img
-              src="./images/img-10.jpg"
-              alt="Дівчина в навушниках"
-              width="360"
-              height="300"
-            />
-            <h3 class="features-subtitle">Online Courses</h3>
-            <p class="features-descr">Marketing</p>
-          </li>
-        </ul>
+            <li class="card-info-section-four">
+              <img
+                src="./images/img-10.jpg"
+                alt="Дівчина в навушниках"
+                width="360"
+                height="300"
+              />
+              <h3 class="features-subtitle">Online Courses</h3>
+              <p class="features-descr">Marketing</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
     <footer class="footer">
-      <a class="logo-footer" href="./index.html"
-        >Web<span class="logo-footer-part">Studio</span></a
-      >
-      <p class="features-descr-two">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+      <div class="container">
+        <a class="logo-footer" href="./index.html"
+          >Web<span class="logo-footer-part">Studio</span></a
+        >
+        <p class="features-descr-two">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
