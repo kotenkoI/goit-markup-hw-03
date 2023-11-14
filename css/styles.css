@@ -1,0 +1,158 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #434455;
+    background-color: #FFFFFF;
+
+}
+
+a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/*Header*/
+
+.header {
+    background: #FFF;
+}
+
+.logo-header, 
+.logo-footer {
+    color: #4D5AE5;
+    font-family: "Raleway", sans-serif ;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.logo-header-part {
+    color: #2E2F42;
+}
+
+.logo-footer-part {
+    color: #F4F4FD;
+}
+
+.nav-link {
+    color: #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #404BBF;
+    text-decoration: underline;
+}
+
+.address {
+    font-style: normal;
+}
+
+.address-link {
+    color: #434455;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    font-style: normal;
+}
+
+.mail-link:hover,
+.mail-link:focus {
+    color: #404BBF;
+}
+
+.tel-link:hover,
+.tel-link:focus {
+    color: #404BBF;
+
+}
+.address-link:hover, 
+.address-link:focus {
+    color: #404bbf;
+}
+
+/* Subject Section */
+
+.section-one {
+    background: #2E2F42;
+}
+
+.slogan {
+    color: #FFF;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+}
+
+.button-style {
+    color: #FFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    background-color: #4D5AE5;
+    cursor: pointer;
+}
+
+.button-style:hover,
+.button-style:focus {
+   background-color: #404BBF;
+}
+
+/* Features Section */
+ 
+.section-title {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.features-subtitle {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+.features-descr {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.section-three {
+    background-color: #F4F4FD;
+}
+
+.card-info {
+    background-color: #FFF;
+}
+
+.features-descr-two {
+    color: #F4F4FD;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.footer {
+    background-color: #2E2F42;
+}
