@@ -235,7 +235,11 @@ img {
     background-color: #F4F4FD;
     padding: 120px 0;
 }
-
+.app {
+    padding: 32px 16px;
+    border: 1px solid #E7E9FC;
+    border-top: none;
+}
 .card-info {
     background-color: #FFF;
     width: calc((100% - 72px) / 4);
@@ -269,4 +273,5 @@ img {
 
 .footer {
     background-color: #2E2F42;
+    padding: 100px 0;
 }
