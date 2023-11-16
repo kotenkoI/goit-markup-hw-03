@@ -59,15 +59,7 @@ img {
     text-transform: uppercase;
     margin-right: 76px;
 }
-.logo-footer {
-    color: #4D5AE5;
-    font-family: "Raleway", sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
-}
+
 
 .logo-header-part {
     color: #2E2F42;
@@ -273,9 +265,18 @@ img {
     background-color: #2E2F42;
     padding: 100px 0;
 }
+.logo-footer {
+    color: #4D5AE5;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
+}
 
 .logo-footer-part {
     color: #F4F4FD;
-    display: inline-block;
-    margin-bottom: 16px;
 }
