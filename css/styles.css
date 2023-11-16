@@ -23,6 +23,9 @@ h1 {
     margin: 0;
 }
 
+img {
+    dispaly: block;
+}
 /*Header*/
 
 .header {
@@ -86,6 +89,7 @@ h1 {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.32px;
+    padding: 24px 0;
 }
 
 .nav-link:hover,
@@ -125,6 +129,7 @@ h1 {
 
 .section-one {
     background: #2E2F42;
+    padding: 188px 0;
 }
 
 .slogan {
@@ -152,7 +157,7 @@ h1 {
     cursor: pointer;
     display: block;
     padding: 16px 32px;
-    max-width: 169px;
+    min-width: 169px;
     height: 56px;
     border: none;
     background-color: #4D5AE5;
@@ -191,12 +196,18 @@ h1 {
     text-transform: capitalize;
     text-align: center;
 }
+.section-two {
+    padding: 120px 0;
+}
 .section-two-items {
     display: flex;
     gap: 24px;
 }
 .section-two-items-descr {
     width: calc((100% - 72px) / 4);
+}
+.employee {
+    padding: 32px 0;
 }
 
 .section-three-items {
@@ -209,6 +220,7 @@ h1 {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
+    margin-bottom: 8px;
 }
 
 .features-descr {
@@ -216,16 +228,24 @@ h1 {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
+    text-align: center;
 }
 
 .section-three {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 .card-info {
     background-color: #FFF;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    border-radius: 0px 0px 4px 4px;
+    background: var(--WHITE, #FFF);
+    box-shadow: 
+    0px 2px 1px 0px rgba(46, 47, 66, 0.08), 
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16), 
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .section-four {
